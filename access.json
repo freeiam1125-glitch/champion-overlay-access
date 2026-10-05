@@ -5,7 +5,12 @@
  "riot": [
   {
    "h": "8153f56e56cf8d9d8dea9a2d23cd72460d5d3dab",
-   "n": "Ccdizo8IO/9uuk/bA66yeJYCMUXJfw96OspFaWoOwmT9vJotYWrU4cxzazvf/zOfewTVBixAo2ZBJcZAAOLtf4DkjDS3VwB4NNcgvIk="
+   "n": "Ccdizo8IO/9uuk/bA66yeJYCMUXJfw96OspFaWoOwmT9vJotYWrU4cxzazvf/zOfewTVBixAo2ZBJcZAAOLtf4DkjDS3VwB4NNcgvIk=",
+   "c": [
+    "MasterYi",
+    "Yasuo",
+    "Yone"
+   ]
   },
   {
    "h": "3c5d26895b4e6758abeb03d3585cdc931bc9df2f",
@@ -42,5 +47,5 @@
    "n": "AoxtIfEFu/N1CevhKSyLbpKsgkV8U6WWbUaSZ3ii7Tc2X40n/f6yTUzQnOxbJYvSVS/AO51NNfxr8vpd18rSEKYvpm1ABUKFJXob"
   }
  ],
- "rev": 1791190147
+ "rev": 1791190376
 }
