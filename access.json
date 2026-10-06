@@ -119,7 +119,7 @@
    "n": "AoxtIfEFu/N1CevhKSyLbpKsgkV8U6WWbUaSZ3ii7Tc2X40n/f6yTUzQnOxbJYvSVS/AO51NNfxr8vpd18rSEKYvpm1ABUKFJXob"
   }
  ],
- "rev": 1791308082,
+ "rev": 1791308671,
  "order": [
   [
    "riot",
@@ -180,6 +180,10 @@
   [
    "riot",
    "808d6b03a426b4f1343c986246396357c35a9704"
+  ],
+  [
+   "riot",
+   "765a17e0eb9d3eb656284f383ab9e83bf3ac328d"
   ],
   [
    "pc",
