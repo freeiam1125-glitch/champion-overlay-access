@@ -122,7 +122,7 @@
    "n": "m74dl5Ar/w5WgYidoZdM5rfY2KXJQEuP0dZ5al2d6npAT4ImO1lsaIpxWWStwwU96EfvZvKnYYj/dqBl0C79yBrJK/sM"
   }
  ],
- "rev": 1792580724,
+ "rev": 1792580907,
  "order": [
   [
    "riot",
@@ -214,16 +214,23 @@
    "name": "CLAUDE-TEST",
    "c": "b762df9faa17b52279f827da58c905d51b7d4167213a65afa79353c4e4bcc423",
    "t": 1792580642
-  },
-  "46212668df5d18fc295c2ee9fd135fd096af3e50": {
-   "n": "HbHMA3y1Ua5Ieuqq6rcEsxzA8s44bZ+TaVDcv1b4LmkBFu+os04X0oI1OwyK",
-   "v": "zHVj+EUpl1F37UZWTUum5EFT314dfar3ajZjSxQr1mj7V+1g48KqSfnn3tefX8kTHZR0CSkOXtEUNscr5HG8XGj0xjHPhS4uwx0uYlRqLxOlH6xvJUNRHw==",
-   "k": "448f2e875e0b92d29e1360ba9ec5c63c5b67982ba68905e0ad717f59e9113f70",
-   "name": "CLAUDE-TEST",
-   "c": "e9130ff422bf65ab39bfd89fe7a63ebc2f629c90cbee6c8287e7724d88f396d9",
-   "t": 1792580723
   }
  },
  "pending_reset": {},
- "email": []
+ "email": [
+  {
+   "h": "46212668df5d18fc295c2ee9fd135fd096af3e50",
+   "n": "CknX81PO4vctMGxl/khC4K73a6GSVKONgb+3apUZWw2b79H5fcOZU8EVH57svWLD7TLF+oV7Qb35xFJvtVB8xlNKl1Z5z4t8zqrt+0vi",
+   "v": "zHVj+EUpl1F37UZWTUum5EFT314dfar3ajZjSxQr1mj7V+1g48KqSfnn3tefX8kTHZR0CSkOXtEUNscr5HG8XGj0xjHPhS4uwx0uYlRqLxOlH6xvJUNRHw==",
+   "d": [
+    {
+     "k": "448f2e875e0b92d29e1360ba9ec5c63c5b67982ba68905e0ad717f59e9113f70",
+     "name": "CLAUDE-TEST",
+     "t": 1792580907
+    }
+   ],
+   "b": 0,
+   "c": []
+  }
+ ]
 }
