@@ -3,7 +3,7 @@
 이슈 본문의 JSON. 구매(라이엇·PC): {"v":1,"kind":"riot"|"pc","id":"...","item":"champion:<Key>"|"pass7"|"pass30","reveal":"...","key":"..."}
 싸서 올린 요청: {"v":1,"enc":{"k":"<RSA 로 싼 임시 열쇠>","b":"<임시 열쇠로 잠근 본문>"}} — 본문의 "t" 가 종류:
   signup {email, v, k, name}  → 인증 코드 메일, 대기 목록(pending)        verify {email, code} → 계정 만들기
-  login {email, v, k, name, replace}  → 기기 등록                          logout {email, reveal} → 기기 빼기
+  login {email, v, k, name}  → 이 PC 를 기기로 (다른 PC 는 밀려난다)       logout {email, reveal} → 기기 빼기
   reset {email} → 코드 메일 (pending_reset)                                reset_verify {email, code, v, k, name} → 비밀번호 바꾸고 기기 전부 교체
   buy (kind=email) {kind, id, item, reveal} → 기기 사슬로 구매
 결과는 이슈 댓글 한 줄: "ok …" 또는 "error …". 처리 뒤 이슈를 닫는다.
@@ -26,7 +26,7 @@ NUMBER = int(os.environ["ISSUE_NUMBER"])
 FILE, BRANCH = "access.json", "main"
 PRICES = {"champion": 300, "pass7": 500, "pass30": 1500}
 PASS_DAYS = {"pass7": 7, "pass30": 30}
-DEVICES = 2
+DEVICES = 1
 HEX64 = re.compile(r"^[0-9a-f]{64}$")
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 CODE_MINUTES, LOGIN_MINUTES, PENDING_HOURS = 15, 10, 2
@@ -247,12 +247,7 @@ def account(data, req, now):
         devices = row.setdefault("d", [])
         if any(d.get("k") == k for d in devices):
             return "ok logged_in", False
-        if len(devices) >= DEVICES:
-            if not req.get("replace"):
-                return "error device_limit", False
-            devices.sort(key=lambda d: int(d.get("t", 0)))
-            del devices[0]
-        devices.append({"k": k, "name": name, "t": now})
+        devices[:] = [{"k": k, "name": name, "t": now}]   # 한 번에 한 PC: 새로 로그인한 PC 가 넘겨받는다
         return "ok logged_in", True
     if kind == "logout":
         reveal = str(req.get("reveal", ""))
