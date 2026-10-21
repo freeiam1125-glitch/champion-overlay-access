@@ -122,7 +122,7 @@
    "n": "m74dl5Ar/w5WgYidoZdM5rfY2KXJQEuP0dZ5al2d6npAT4ImO1lsaIpxWWStwwU96EfvZvKnYYj/dqBl0C79yBrJK/sM"
   }
  ],
- "rev": 1792580913,
+ "rev": 1792580927,
  "order": [
   [
    "riot",
@@ -224,13 +224,15 @@
    "v": "zHVj+EUpl1F37UZWTUum5EFT314dfar3ajZjSxQr1mj7V+1g48KqSfnn3tefX8kTHZR0CSkOXtEUNscr5HG8XGj0xjHPhS4uwx0uYlRqLxOlH6xvJUNRHw==",
    "d": [
     {
-     "k": "448f2e875e0b92d29e1360ba9ec5c63c5b67982ba68905e0ad717f59e9113f70",
+     "k": "b02d0d4f7a0bc6bc27642220b59e035e2c1ff714af3cf9fcd1e0ad86722dc35c",
      "name": "CLAUDE-TEST",
      "t": 1792580907
     }
    ],
-   "b": 500,
-   "c": []
+   "b": 200,
+   "c": [
+    "Ahri"
+   ]
   }
  ]
 }
