@@ -106,15 +106,6 @@
   {
    "h": "4087a92cf8fa5e7729e6d67c92e54c9a0e80aed3",
    "n": "cQKV9qptBDO4blj+SCifPUu+f2lQ5IlJX1cxOrCYJeoGBeC9v/rnkKT0ZDc8BWmzluTaDKIKQ/HJ3qGU6CjyzQ=="
-  },
-  {
-   "h": "2ce5aa2e622233f235521420cc659eb66f1c336b",
-   "n": "VRpMcBpgHNQKPf330O7ZKHGzP11BCBUXIDkeCKs1IorbLMJqZ9HapVDRM9wL3RxdDCYhP/1QOpocL5V3skzQKCbvut1XIKf/4Fa2T3oZx0Rduw==",
-   "c": [
-    "Ahri"
-   ],
-   "b": 200,
-   "k": "2c726d1eae0bda3336239866346b36e3822c5aeaee97f7179445adb905743443"
   }
  ],
  "pc": [
@@ -131,7 +122,7 @@
    "n": "m74dl5Ar/w5WgYidoZdM5rfY2KXJQEuP0dZ5al2d6npAT4ImO1lsaIpxWWStwwU96EfvZvKnYYj/dqBl0C79yBrJK/sM"
   }
  ],
- "rev": 1792575662,
+ "rev": 1792575680,
  "order": [
   [
    "riot",
